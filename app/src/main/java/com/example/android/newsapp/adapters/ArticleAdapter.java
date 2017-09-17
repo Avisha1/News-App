@@ -12,10 +12,6 @@ import android.widget.TextView;
 import com.example.android.newsapp.R;
 import com.example.android.newsapp.dataobjects.Article;
 
-import java.sql.Date;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 /**
@@ -54,23 +50,6 @@ public class ArticleAdapter extends ArrayAdapter<Article> {
         else{
             dateView.setVisibility(View.GONE);
         }
-
         return listItemView;
     }
-
-//    private String formatDate(String dateAsString) {
-//
-//        String dateInString = new java.text.SimpleDateFormat("EEEE, LLL dd, yyyy")
-//                .format(dateAsString);
-//        SimpleDateFormat formatter = new SimpleDateFormat("EEEE, LLL dd, yyyy");
-//        java.util.Date parsedDate = null;
-//        try{
-//            parsedDate = formatter.parse(dateInString);
-//        }catch(Exception ex){
-//            ex.printStackTrace();
-//        }
-//
-//        SimpleDateFormat dateFormat = new SimpleDateFormat("LLL dd, yyyy");
-//        return dateFormat.format(parsedDate);
-//    }
 }

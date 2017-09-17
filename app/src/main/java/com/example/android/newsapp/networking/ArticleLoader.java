@@ -3,9 +3,6 @@ package com.example.android.newsapp.networking;
 import android.content.AsyncTaskLoader;
 import android.content.Context;
 import android.util.Log;
-import android.widget.ProgressBar;
-
-import com.example.android.newsapp.adapters.ArticleAdapter;
 import com.example.android.newsapp.dataobjects.Article;
 
 import java.io.IOException;

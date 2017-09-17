@@ -9,18 +9,25 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="@dimen/title_text_size"
+        android:textAppearance="?attr/textAppearanceListItem"
         tools:text="Watford 0-6 Manchester City, Liverpool 1-1 Burnley and more â€“Â live!"/>
 
     <TextView
         android:id="@+id/section"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="@dimen/section_text_size"
+        android:textStyle="bold"
+        android:textAppearance="?attr/textAppearanceListItem"
         tools:text="Football"/>
 
     <TextView
         android:id="@+id/published_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="@android:color/darker_gray"
         tools:text="2017-09-16T15:53:47Z"/>
 
 </LinearLayout>

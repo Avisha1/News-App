@@ -130,8 +130,6 @@ public class ArticleLoaderApiHelper {
                     if (jsonArticle.has(KEY_DATE)) {
 
                         publishedDate = jsonArticle.getString(KEY_DATE);
-
-
                         articleList.add(new Article(title, section, url, publishedDate));
                     }
                 } catch (JSONException e) {
@@ -147,5 +145,4 @@ public class ArticleLoaderApiHelper {
         //return null if something went wrong
         return null;
     }
-
 }
